@@ -1,0 +1,3 @@
+-keep class org.osmdroid.** { *; }
+-keep class androidx.exifinterface.** { *; }
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }
